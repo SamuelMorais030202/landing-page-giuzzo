@@ -27,26 +27,30 @@ function App() {
             </div>
           </div>
         </section>
+        <section className='breack'></section>
         <section className='automaquiagem'>
-          <div>
-            <h1>Curso automaquiagem</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, rem eius.
-              Optio consequatur totam aliquid magni sed nesciunt aspernatur possimus assumenda
-              itaque maxime nihil ipsa quia, minus ad reprehenderit facilis?
-            </p>
-            <button>Venha aprender a se maquiar</button>
+          <div className='div-automaquiagem'>
+            <div className='giuzzo'>
+              <h1>Curso automaquiagem</h1>
+              <p>
+                Descubra o poder da sua beleza.
+                Aprenda a destacar suas melhores qualidades e se sentir confiante
+                e radiante todos os dias. 
+              </p>
+              <button className='btn'>Venha aprender a se automaquiar</button>
+            </div>
           </div>
         </section>
-        <section>
+        <section className='lipglow'>
           <div>
-            <h1>Lip Glow Descubra seu novo vício</h1>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, commodi porro cupiditate
-              at harum consectetur iste, eveniet a ipsum vitae repellat voluptatum iusto sed magni ex odio
-              tempore rem optio!
-            </p>
-            <button>Venha descobrir seu novo vício</button>
+            <div className='text-glow'>
+              <h1>Lip Glow</h1>
+              <p>
+                Não perca a oportunidade de se sentir confiante e deslumbrante. Deixe o Lip Glow ser
+                o seu segredo de beleza e encante a todos com seus lábios irresistíveis!
+              </p>
+              <button className='btn'>Venha descobrir seu novo vício</button>
+            </div>
           </div>
         </section>
       </main>
