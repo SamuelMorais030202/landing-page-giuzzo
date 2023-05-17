@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family= Dancing+Script:wght@400;500;600 & display=swap');
 
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 900px) {
   body {
     overflow-x: hidden;
   }
@@ -23,10 +23,45 @@
     justify-content: center;
   }
 
+  .sumario {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/giuzzo.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .sumario div h1 {
+    margin-top: 19px;
+  }
+
+  .btn {
+    border: 2px solid white;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 48vw;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+  }
+
+  .btn a {
+    text-decoration: none;
+    color: white;
+  }
+
   .btn:hover {
     background-color: white;
     color: black;
     /* font-family: 'Foldit', cursiva; */
+  }
+
+  .btn:hover a {
+    color: black;
   }
 
   .giuzzo {
@@ -43,24 +78,25 @@
 
   .giuzzo h1 {
     color: white;
-    margin: 12px;
+    margin: 10px;
     font-size: 33px;
     font-family: 'Foldit', cursiva;
     font-weight: 700;
     text-align: center;
+    font-style: italic;
   }
 
   .giuzzo p {
     /* color: rgb(168, 168, 168); */
-    color: rgb(202, 201, 201);
+    color: rgb(224, 222, 222);
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     text-align: center;
   }
 
   .giuzzo button {
     border: 2px solid white;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 18px;
     font-weight: 500;
     width: 48vw;
@@ -180,8 +216,8 @@
   .lipglow div {
     width: 100%;
     height: 100%;
-    background-color: rgba(171, 12, 177, 0.349);
-    /* background-color: rgba(255, 0, 242, 0.144); */
+    /* background-color: rgba(171, 12, 177, 0.349); */
+    background-color: rgba(255, 0, 242, 0.144);
   }
 
   .text-glow {
@@ -196,7 +232,7 @@
   }
 
   .text-glow h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 12px;
     font-size: 35px;
     font-family: 'Foldit', cursiva;
@@ -205,7 +241,7 @@
   }
 
   .text-glow p {
-    color: rgb(233, 233, 233);
+    color: rgb(255, 255, 255);
     font-size: 23px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -224,5 +260,73 @@
     background-color: transparent;
     color: white;
   }
-  
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links {
+    height: 60vh;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .links h1 {
+    color: white;
+    margin-top: -20px;
+    font-size: 35px;
+    font-family: 'Foldit', cursiva;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  nav a {
+    text-decoration: none;
+    list-style-type: none;
+    border: 2px solid #311b92;
+    border-radius: 4px;
+    width: 12em;
+    height: 3em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 3em;
+    overflow: hidden;
+    transition: 0.5s;
+    color: rgb(37, 175, 129);
+  }
+
+  nav a span {
+    width: 25%;
+    height: 100%;
+    background-color: #311b92;
+    transform: translateY(190%);
+    border-radius: 50%;
+    left: 85%;
+    transition: 0.5s;
+    transition-delay: 0.6s;
+    z-index: -1;
+  }
+
+  nav a:hover {
+    color: white;
+  }
+
+  nav a:hover span {
+    transform:  translate(0) scale(2);
+  }
+
 }
