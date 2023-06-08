@@ -4,7 +4,7 @@ function App() {
   return (
     <div className='body'>
       <div className='sumario'>
-        <div className='giuzzo'>
+        <div className='g-pantuzzo'>
           <h1>G.Pantuzzo</h1>
           <p>
             Giulia Pantuzzo é uma artista multidisciplinar que traduz seu estudo da Arte da Beleza em
