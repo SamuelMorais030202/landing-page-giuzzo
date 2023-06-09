@@ -43,8 +43,10 @@
   }
 
   .g-pantuzzo h1 {
-    color: white;
-    margin: 10px;
+    color: rgba(255, 255, 255, 0.829);
+    display: inline-block;
+    margin-top: 45px;
+    margin-bottom: 10px;
     font-size: 33px;
     font-family: 'Foldit', cursiva;
     font-weight: 700;
@@ -59,6 +61,7 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
+    text-align: justify;
   }
 
   .sumario div h1 {
@@ -111,7 +114,7 @@
     color: rgb(224, 222, 222);
     font-size: 20px;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: justify;
   }
 
   .giuzzo button {
@@ -124,7 +127,7 @@
     border-radius: 23px;
     background-color: transparent;
     color: white;
-    width: 240px;
+    width: 100%;
   }
 
   .noivas {
@@ -175,7 +178,7 @@
     font-size: 23px;
     font-weight: 400;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: justify;
     font-family: 'Dancing Script', cursiva;
     font-weight: 450;
   }
@@ -190,7 +193,7 @@
     border-radius: 23px;
     background-color: transparent;
     color: white;
-    width: 240px;
+    width: 110%;
   }
 
   .breack {
@@ -269,9 +272,10 @@
     font-size: 21px;
     font-weight: 500;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: justify;
     font-family: 'Dancing Script', cursiva;
     font-weight: 450;
+    padding: 10px;
   }
 
   .text-glow button {
@@ -284,7 +288,7 @@
     border-radius: 23px;
     background-color: transparent;
     color: white;
-    width: 240px;
+    width: 90%;
   }
 
   footer {
