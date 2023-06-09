@@ -1,3 +1,4 @@
+import './bigScreens.css';
 import './App.css';
 import './desktop.css';
 

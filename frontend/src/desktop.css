@@ -15,7 +15,7 @@
   header {
     width: 100vw;
     height: 100vh;
-    background-image: url('./images/IMG_3436.JPG');
+    background-image: url('./images/IMG_3436.jpg');
     background-size: cover;
     overflow-y: hidden;
     display: flex;
@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('./images/giuzzo.JPG');
+    background-image: url('./images/giuzzo\ \(1\).jpg');
     background-size: cover;
   }
 
@@ -136,7 +136,7 @@
     width: 100vw;
     height: 80vh;
     background-color: rgba(0, 0, 0, 0.651);
-    background-image: url('./images/noiva.JPEG');
+    background-image: url('./images/noiva.jpeg');
     background-attachment: fixed;
     background-size: cover;
     overflow-y: hidden;
@@ -198,7 +198,7 @@
   }
 
   .breack {
-    background-image: url('images/2458F5F5-1E69-4415-ACFA-427A621C0A27.PNG');
+    background-image: url('images/2458F5F5-1E69-4415-ACFA-427A621C0A27.png');
     background-size: cover;
     background-position: center center;
     height: 80vh;
@@ -240,7 +240,7 @@
   .lipglow div {
     width: 100%;
     height: 100%;
-    background-image: url('./images/giuzzo.JPEG');
+    background-image: url('./images/giuzzo.jpeg');
     background-size: cover;
   }
 

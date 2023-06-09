@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Foldit:wght@300;400;500;600;700 & display =swap');
+@import url('https://fonts.googleapis.com/css2?family= Dancing+Script:wght@400;500;600 & display=swap');
+
+
+@media (min-width: 901px) and (max-width: 1500px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/IMG_3436.jpg');
+    background-size: cover;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sumario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/giuzzo\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .g-pantuzzo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.404);
+  }
+
+  .g-pantuzzo h1 {
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Foldit', cursiva;
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .g-pantuzzo p {
+    color: rgb(252, 251, 251);
+    font-size: 25px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .sumario div h1 {
+    margin-top: 19px;
+  }
+
+  .btn {
+    border: 2px solid white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 48vw;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+  }
+
+  .btn a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .btn:hover {
+    background-color: white;
+    color: black;
+    /* font-family: 'Foldit', cursiva; */
+  }
+
+  .btn:hover a {
+    color: black;
+  }
+
+  .giuzzo {
+    background-color: rgba(0, 0, 0, 0.301);
+    padding: 60px;
+    max-width: 65vw;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .giuzzo h1 {
+    color: white;
+    margin: 20px;
+    font-size: 42px;
+    font-family: 'Foldit', cursiva;
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .giuzzo p {
+    /* color: rgb(168, 168, 168); */
+    color: rgb(224, 222, 222);
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .giuzzo button {
+    border: 2px solid white;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    width: 48vw;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+  }
+
+  .noivas {
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.651);
+    background-image: url('./images/noiva.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-noivas {
+    background-color: rgba(255, 0, 242, 0.144);
+    /* background-color: #e0cce552; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contaudo-noivas {
+    background-color: rgba(0, 0, 0, 0.219);
+    padding: 30px;
+    max-width: 65vw;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .contaudo-noivas h1 {
+    color: white;
+    margin: 30px;
+    font-size: 50px;
+    font-family: 'Foldit', cursiva;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .contaudo-noivas p {
+    color: rgb(233, 233, 233);
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Dancing Script', cursiva;
+    font-weight: 450;
+  }
+
+  .contaudo-noivas button {
+    border: 2px solid white;
+    margin-top: 20px;
+    font-size: 30px;
+    width: 48vw;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+  }
+
+  .breack {
+    background-image: url('images/2458F5F5-1E69-4415-ACFA-427A621C0A27.png');
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    width: 100vw;
+  }
+
+  .automaquiagem {
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.651);
+    background-image: url('./images/maquiagem.jpg');
+    /* background-attachment: fixed; */
+    background-size: cover;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-automaquiagem {
+    /* background-color: rgba(255, 0, 242, 0.377); */
+    background-color: #1f1f1f8f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lipglow {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; */
+  }
+
+  .lipglow div {
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/giuzzo.jpeg');
+    background-size: cover;
+  }
+
+  .text-glow {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .text-glow h1 {
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    font-size: 53px;
+    font-family: 'Foldit', cursiva;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .text-glow p {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Dancing Script', cursiva;
+    font-weight: 450;
+  }
+
+  .text-glow button {
+    border: 2px solid white;
+    margin-top: 20px;
+    font-size: 30px;
+    width: 48vw;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links {
+    height: 60vh;
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .links h1 {
+    color: white;
+    font-size: 53px;
+    font-family: 'Foldit', cursiva;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  nav a {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 12em;
+    height: 3em;
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    line-height: 3em;
+    color: white;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.753);
+  }
+
+  nav a span {
+    width: 25%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+}
