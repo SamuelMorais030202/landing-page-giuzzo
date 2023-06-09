@@ -46,7 +46,7 @@
   .g-pantuzzo h1 {
     color: white;
     margin: 20px;
-    font-size: 30px;
+    font-size: 1.2em;
     font-family: 'Foldit', cursiva;
     font-weight: 700;
     text-align: center;
@@ -55,7 +55,7 @@
 
   .g-pantuzzo p {
     color: rgb(252, 251, 251);
-    font-size: 25px;
+    font-size: 1em;
     margin-bottom: 8px;
     text-align: center;
   }
