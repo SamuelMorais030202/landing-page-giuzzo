@@ -36,8 +36,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    gap: 8px;
+    justify-content: center;
+    gap: 18px;
     padding: 15px;
     background-color: rgba(27, 27, 27, 0.726);
   }
@@ -53,10 +53,12 @@
   }
 
   .g-pantuzzo p {
-    color: rgb(252, 251, 251);
+    color: rgba(252, 251, 251, 0.747);
     font-size: 20px;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
   }
 
   .sumario div h1 {
@@ -64,16 +66,17 @@
   }
 
   .btn {
-    border: 3px solid white;
+    border: 1.8px solid white;
     margin-top: 10px;
-    font-size: 18px;
-    font-weight: 300;
-    width: 48vw;
-    padding: 10px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    height: 58px;
+    padding: 12px;
     border-radius: 23px;
     background-color: transparent;
     color: white;
-    width: 240px;
+    width: 100%;
   }
 
   .btn a {
@@ -249,6 +252,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 18px;
   }
 
   .text-glow h1 {
@@ -261,9 +265,9 @@
   }
 
   .text-glow p {
-    color: rgb(255, 255, 255);
-    font-size: 23px;
-    font-weight: 400;
+    color: rgb(255, 230, 230);
+    font-size: 21px;
+    font-weight: 500;
     margin-bottom: 10px;
     text-align: center;
     font-family: 'Dancing Script', cursiva;

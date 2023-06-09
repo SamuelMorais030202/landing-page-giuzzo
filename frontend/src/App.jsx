@@ -16,7 +16,7 @@ function App() {
           <button className='btn'>
             Contato e Agendamento
           </button>
-          <button className='btn'>
+          {/* <button className='btn'>
             <a href="#noivas">Dia de Noiva</a>
           </button>
           <button className='btn'>
@@ -27,7 +27,7 @@ function App() {
           </button>
           <button className='btn'>
             <a href="#lipGlow">Compre o Lip Glow</a>
-          </button>
+          </button> */}
         </div>
       </div>
       <section className='noivas' id='noivas'>
