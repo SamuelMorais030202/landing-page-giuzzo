@@ -134,7 +134,7 @@
 
   .noivas {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.651);
     background-image: url('./images/noiva.jpeg');
     background-size: cover;
