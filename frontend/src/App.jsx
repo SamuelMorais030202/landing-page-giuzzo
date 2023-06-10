@@ -75,7 +75,7 @@ function App() {
             Através de uma estética inovadora e posicionamento subversivo, suas criações não passam
             despercebidas. A GIUZZO é um convite para experimentar a arte no seu dia a dia.
           </p>
-          <button className='btn'>SHOP SITE | BRAZIL</button>
+          <button className='btn'>SHOP SITE | Brasil</button>
           <button className='btn'>SHOP SITE | Internacional</button>
         </div>
       </header>
