@@ -9,8 +9,10 @@ function App() {
         <div className='g-pantuzzo'>
           <h1>G.Pantuzzo</h1>
           <p>
-            Giulia Pantuzzo é uma artista multidisciplinar que traduz seu estudo da Arte da Beleza em
-            todas as suas criações. Suas produções únicas provocam experiências que rompem com a
+            Giulia Pantuzzo é uma artista multidisciplinar
+            que traduz seu estudo da Arte da Beleza em todas as
+            suas criações. Suas produções únicas provocam
+            experiências que rompem com a
             normalidade e celebram a potência do feminino.
           </p>
           <button className='btn'>
@@ -62,7 +64,7 @@ function App() {
           <p>
             GIUZZO, uma marca de arte idealizada por Giulia Pantuzzo, para materializar o seu universo criativo.
             Através de uma estética inovadora e posicionamento subversivo, suas criações não passam
-            despercebidas. A GIUZZO é um convite para experimentar a arte no seu dia a dia. 
+            despercebidas. A GIUZZO é um convite para experimentar a arte no seu dia a dia.
           </p>
           <button className='btn'>SHOP SITE | BRAZIL</button>
           <button className='btn'>SHOP SITE | Internacional</button>
@@ -77,7 +79,7 @@ function App() {
               <p>
                 Hidratação, Refrescância, Arte e Beleza em um só potinho. O Lip Glow é o hidratante labial formulado
                 para realçar a sua beleza natural. Com uma combinação exclusiva de ativos, este produto foi
-                desenhado para incentivar o seu autocuidado e aumentar sua autoconfiança. 
+                desenhado para incentivar o seu autocuidado e aumentar sua autoconfiança.
               </p>
               <button className='btn'>Venha descobrir seu novo vício</button>
             </div>
