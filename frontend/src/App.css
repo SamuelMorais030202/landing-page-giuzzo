@@ -6,6 +6,16 @@
 @import url('https://fonts.googleapis.com/css2?family= Foldit:wght@300;400;500;600;700 & display =swap');
 @import url('https://fonts.googleapis.com/css2?family= Dancing+Script:wght@400;500;600 & display=swap');
 
+@font-face {
+  font-family: 'Carl-Brown';
+  src: url('./images/Carl\ Brown.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Carl-Brown-otf';
+  src: url('./images/Carl\ Brown.otf') format('opentype');
+}
+
 
 @media (min-width: 300px) and (max-width: 650px) {
   body {
@@ -48,10 +58,10 @@
     color: rgba(255, 255, 255, 0.829);
     display: inline-block;
     margin-top: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     font-size: 33px;
-    font-family: 'Foldit', cursiva;
-    font-weight: 700;
+    font-family: 'Carl-Brown-otf';
+    font-weight: 600;
     text-align: center;
     font-style: italic;
   }
@@ -99,7 +109,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     width: 100%;
     height: 100%;
   }
@@ -108,8 +118,8 @@
     color: white;
     margin: 10px;
     font-size: 33px;
-    font-family: 'Foldit', cursiva;
-    font-weight: 700;
+    font-family: 'Carl-Brown';
+    font-weight: 600;
     text-align: center;
     font-style: italic;
 
@@ -117,10 +127,12 @@
 
   .giuzzo p {
     /* color: rgb(168, 168, 168); */
-    color: rgba(224, 222, 222, 0.87);
+    color: rgba(224, 222, 222, 0.986);
     font-size: 20px;
     margin-bottom: 8px;
     text-align: justify;
+    padding: 5px;
+    font-weight: 300;
   }
 
   .giuzzo button {
@@ -169,26 +181,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
   }
 
   .contaudo-noivas h1 {
     color: white;
     margin: 12px;
     font-size: 35px;
-    font-family: 'Foldit', cursiva;
-    font-weight: 700;
+    font-family: 'Carl-Brown-otf';
+    font-weight: 600;
     text-align: center;
   }
 
   .contaudo-noivas p {
     color: rgba(233, 233, 233, 0.849);
     font-size: 23px;
-    font-weight: 400;
+    font-weight: 100;
     margin-bottom: 10px;
     text-align: justify;
     font-family: 'Dancing Script', cursiva;
-    font-weight: 450;
   }
 
   .contaudo-noivas button {
@@ -204,14 +215,14 @@
     width: 110%;
   }
 
-  .breack {
+  /* .breack {
     background-image: url('images/IMG_7071\ \(1\).jpg');
     background-size: cover;
     margin-top: -20px;
     background-size: cover;
     height: 40vh;
     width: 100vw;
-  }
+  } */
 
   .automaquiagem {
     width: 100vw;
@@ -244,14 +255,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('./images/lip-glow.JPG');
+    background-size: cover;
   }
 
   .lipglow div {
     width: 100%;
     height: 100%;
-    background-image: url('./images/lip-glow.JPG');
-    background-size: cover;
-    /* background-color: rgba(255, 0, 242, 0.144); */
+    background-color: rgba(0, 0, 0, 0.336);
   }
 
   .text-glow {
@@ -264,15 +275,14 @@
     justify-content: center;
     flex-direction: column;
     gap: 18px;
-    /* background-color: black; */
   }
 
   .text-glow h1 {
     color: rgb(255, 255, 255);
     margin: 12px;
     font-size: 35px;
-    font-family: 'Foldit', cursiva;
-    font-weight: 700;
+    font-family: 'Carl-Brown-otf';
+    font-weight: 600;
     text-align: center;
   }
 
@@ -321,8 +331,8 @@
     color: white;
     margin-top: -20px;
     font-size: 35px;
-    font-family: 'Foldit', cursiva;
-    font-weight: 700;
+    font-family: 'Carl-Brown-otf';
+    font-weight: 600;
     text-align: center;
   }
 
