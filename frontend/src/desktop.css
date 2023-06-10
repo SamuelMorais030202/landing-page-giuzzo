@@ -6,6 +6,15 @@
 @import url('https://fonts.googleapis.com/css2?family= Foldit:wght@300;400;500;600;700 & display =swap');
 @import url('https://fonts.googleapis.com/css2?family= Dancing+Script:wght@400;500;600 & display=swap');
 
+@font-face {
+  font-family: 'Carl-Brown';
+  src: url('./images/Carl\ Brown.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Carl-Brown-otf';
+  src: url('./images/Carl\ Brown.otf') format('opentype');
+}
 
 @media (min-width: 600px) and (max-width: 900px) {
   body {
@@ -46,7 +55,7 @@
     color: white;
     margin: 20px;
     font-size: 50px;
-    font-family: 'Foldit', cursiva;
+    font-family: 'Carl-Brown-otf';
     font-weight: 700;
     text-align: center;
     font-style: italic;
@@ -106,7 +115,7 @@
     color: white;
     margin: 20px;
     font-size: 42px;
-    font-family: 'Foldit', cursiva;
+    font-family: 'Carl-Brown-otf';
     font-weight: 700;
     text-align: center;
     font-style: italic;
@@ -170,7 +179,7 @@
     color: white;
     margin: 30px;
     font-size: 50px;
-    font-family: 'Foldit', cursiva;
+    font-family: 'Carl-Brown-otf';
     font-weight: 700;
     text-align: center;
   }
@@ -258,7 +267,7 @@
     color: rgb(255, 255, 255);
     margin: 20px;
     font-size: 53px;
-    font-family: 'Foldit', cursiva;
+    font-family: 'Carl-Brown-otf';
     font-weight: 700;
     text-align: center;
   }
@@ -266,7 +275,7 @@
   .text-glow p {
     color: rgb(255, 255, 255);
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 200;
     margin-bottom: 20px;
     text-align: center;
     font-family: 'Dancing Script', cursiva;
@@ -302,7 +311,7 @@
   .links h1 {
     color: white;
     font-size: 53px;
-    font-family: 'Foldit', cursiva;
+    font-family: 'Carl-Brown-otf';
     font-weight: 700;
     text-align: center;
   }
