@@ -38,12 +38,19 @@ function App() {
           <div className='div-noivas'>
             <div className='contaudo-noivas'>
               <h1>Noivas</h1>
+              <h3>G. Pantuzzo convida para uma experiencia artística no seu casamento.</h3>
               <p>
                 Para mim, é uma honra ser escolhida para produzir a Beleza do seu Dia de Noiva. Venha ceder o seu
                 rosto como tela para que juntas possamos concretizar o seu sonho para este dia especial. Desejo fazer
                 de você uma verdadeira obra prima, te deixando mais confiante do que nunca!
               </p>
-              <button className='btn'>Agende seu dia de noiva</button>
+              <button className='btn'>Dia de noiva com a GIU</button>
+              <p>
+                Transforme o seu casamento em uma experiência sensorial inesquecível e cocrie os detalhes artísticos
+                do seu grande dia. Vamos desenvolver desde a Identidade Visual, Convites, Kits Personalizados, e tudo
+                que você sonha para que a arte esteja em todos os detalhes.
+              </p>
+              <button className='btn'>Wedding Art</button>
             </div>
           </div>
       </section>
@@ -56,7 +63,7 @@ function App() {
                 Curso de Automaquiagem em um formato de um Brunch & Make, onde irei desmistificar o mundo da
                 beleza para você e passar todos os meus segredos dessa Arte.
               </p>
-              <button className='btn'>Venha aprender a se automaquiar</button>
+              <button className='btn'>Descubra a arte da beleza</button>
             </div>
           </div>
         </section>
@@ -83,7 +90,7 @@ function App() {
                 para realçar a sua beleza natural. Com uma combinação exclusiva de ativos, este produto foi
                 desenhado para incentivar o seu autocuidado e aumentar sua autoconfiança.
               </p>
-              <button className='btn'>Venha descobrir seu novo vício</button>
+              <button className='btn'>Descubra o seu mais novo vício</button>
             </div>
           </div>
         </section>
