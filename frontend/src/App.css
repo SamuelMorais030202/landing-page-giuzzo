@@ -42,6 +42,7 @@
     justify-content: center;
     background-image: url('./images/g-pantuzzo.JPG');
     background-size: cover;
+    background-attachment: fixed;
   }
 
   .g-pantuzzo {
@@ -245,7 +246,7 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.651);
     background-image: url('./images/maquiagem.jpg');
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover;
     overflow-y: hidden;
     display: flex;
