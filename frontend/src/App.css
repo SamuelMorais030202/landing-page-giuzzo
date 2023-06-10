@@ -127,12 +127,13 @@
 
   .giuzzo p {
     /* color: rgb(168, 168, 168); */
-    color: rgba(224, 222, 222, 0.986);
+    color: rgb(224, 222, 222);
     font-size: 20px;
     margin-bottom: 8px;
     text-align: justify;
     padding: 5px;
-    font-weight: 300;
+    font-weight: 270;
+    width: 90%;
   }
 
   .giuzzo button {
@@ -200,6 +201,8 @@
     margin-bottom: 10px;
     text-align: justify;
     font-family: 'Dancing Script', cursiva;
+    width: 90%;
+    margin: 0;
   }
 
   .contaudo-noivas button {
@@ -287,14 +290,15 @@
   }
 
   .text-glow p {
-    color: rgb(255, 230, 230);
+    color: rgba(248, 248, 248, 0.856);
     font-size: 21px;
     font-weight: 200;
     margin-bottom: 10px;
     text-align: justify;
     font-family: 'Dancing Script', cursiva;
-    font-weight: 450;
+    font-weight: 200;
     padding: 10px;
+    width: 90%;
   }
 
   .text-glow button {
@@ -319,7 +323,7 @@
   .links {
     height: 100vh;
     width: 100vw;
-    background-color: rgba(5, 5, 5, 0.781);
+    background-color: rgba(5, 5, 5, 0.726);
     display: flex;
     flex-direction: column;
     align-items: center;
