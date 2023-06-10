@@ -15,8 +15,10 @@
   header {
     width: 100vw;
     height: 100vh;
-    background-image: url('./images/IMG_3436.jpg');
+    /* background-image: url('./images/fundo-giuzzo.PNG'); */
+    background-color: #e0cce5;
     background-size: cover;
+    background-position: center center;
     overflow-y: hidden;
     display: flex;
     align-items: center;
@@ -70,14 +72,14 @@
   }
 
   .btn {
-    border: 1.8px solid white;
+    border: 1px solid white;
     margin-top: 10px;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 400;
     height: 58px;
     padding: 12px;
-    border-radius: 23px;
+    border-radius: 28px;
     background-color: transparent;
     color: white;
     width: 100%;
@@ -89,15 +91,17 @@
   }
 
   .giuzzo {
-    background-color: rgba(0, 0, 0, 0.301);
-    padding: 30px;
-    max-width: 65vw;
+    background-color: rgba(0, 0, 0, 0.384);
+    padding: 10px;
+    /* max-width: 65vw; */
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    width: 100%;
+    height: 100%;
   }
 
   .giuzzo h1 {
@@ -108,20 +112,21 @@
     font-weight: 700;
     text-align: center;
     font-style: italic;
+
   }
 
   .giuzzo p {
     /* color: rgb(168, 168, 168); */
-    color: rgb(224, 222, 222);
+    color: rgba(224, 222, 222, 0.87);
     font-size: 20px;
     margin-bottom: 8px;
     text-align: justify;
   }
 
   .giuzzo button {
-    border: 3px solid white;
+    border: 1px solid white;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 300;
     width: 100%;
     padding: 11px;
@@ -177,7 +182,7 @@
   }
 
   .contaudo-noivas p {
-    color: rgb(233, 233, 233);
+    color: rgba(233, 233, 233, 0.849);
     font-size: 23px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -200,11 +205,11 @@
   }
 
   .breack {
-    background-image: url('images/2458F5F5-1E69-4415-ACFA-427A621C0A27.png');
+    background-image: url('images/IMG_7071\ \(1\).jpg');
     background-size: cover;
     margin-top: -20px;
     background-size: cover;
-    height: 80vh;
+    height: 40vh;
     width: 100vw;
   }
 
@@ -233,7 +238,7 @@
 
   .lipglow {
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     background-size: cover;
     overflow-y: hidden;
     display: flex;
@@ -244,7 +249,7 @@
   .lipglow div {
     width: 100%;
     height: 100%;
-    background-image: url('./images/giuzzo.jpeg');
+    background-image: url('./images/lip-glow.JPG');
     background-size: cover;
     /* background-color: rgba(255, 0, 242, 0.144); */
   }
@@ -259,6 +264,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 18px;
+    /* background-color: black; */
   }
 
   .text-glow h1 {
@@ -297,11 +303,13 @@
   footer {
     display: flex;
     flex-direction: column;
+    height: 100vh;
   }
 
   .links {
-    height: 60vh;
-    background-color: rgb(5, 5, 5);
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(5, 5, 5, 0.726);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -329,18 +337,18 @@
   nav a {
     text-decoration: none;
     list-style-type: none;
-    border: 3px solid white;
-    border-radius: 10px;
-    width: 12em;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 280px;
     height: 3em;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
     letter-spacing: 0.1em;
     line-height: 3em;
     overflow: hidden;
     transition: 0.5s;
     color: white;
-    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.753);
+    font-size: 20px;
   }
 
   nav a span {
