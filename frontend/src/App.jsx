@@ -2,18 +2,20 @@ import './bigScreens.css';
 import './App.css';
 import './desktop.css';
 
+// import img from './images/g.pantuzzo.tnsp.png'
+
 function App() {
   return (
     <div className='body'>
       <div className='sumario'>
         <div className='g-pantuzzo'>
           <h1>G.Pantuzzo</h1>
+          {/* <h2><img src={ img } alt="" /></h2> */}
           <p>
             Giulia Pantuzzo é uma artista multidisciplinar
             que traduz seu estudo da Arte da Beleza em todas as
             suas criações. Suas produções únicas provocam
-            experiências que rompem com a
-            normalidade e celebram a potência do feminino.
+            experiências que rompem com a normalidade e celebram a potência do feminino.
           </p>
           <button className='btn'>
             Contato e Agendamento
@@ -60,7 +62,7 @@ function App() {
         </section>
       <header>
         <div className='giuzzo' id='giuzzo'>
-          <h1>GIUZZO</h1>
+          <h1>giuzzo</h1>
           <p>
             GIUZZO, uma marca de arte idealizada por Giulia Pantuzzo, para materializar o seu universo criativo.
             Através de uma estética inovadora e posicionamento subversivo, suas criações não passam
