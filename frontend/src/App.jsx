@@ -99,9 +99,9 @@ function App() {
         <section className='links'>
           <h1>Me encontre</h1>
           <nav>
-            <a href="https://www.instagram.com/gpantuzzo/" target="_blank" rel="noreferrer">Intagram de Art <span></span><span></span></a>
-            <a href="https://www.instagram.com/giuliapantuzzobeauty/" target="_blank" rel="noreferrer">Intagram Beauty <span></span> <span></span></a>
-            <a href="https://www.instagram.com/giuzzo.co/" target='_blank' rel="noreferrer">Intagram Giuzzo <span></span> <span></span></a>
+            <a href="https://www.instagram.com/gpantuzzo/" target="_blank" rel="noreferrer">Instagram de Art <span></span><span></span></a>
+            <a href="https://www.instagram.com/giuliapantuzzobeauty/" target="_blank" rel="noreferrer">Instagram Beauty <span></span> <span></span></a>
+            <a href="https://www.instagram.com/giuzzo.co/" target='_blank' rel="noreferrer">Instagram Giuzzo <span></span> <span></span></a>
             <a href="https://www.tiktok.com/@gpantuzzo" target="_blank" rel="noreferrer">TikTok <span></span> <span></span></a>
           </nav>
         </section>
