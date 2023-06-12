@@ -24,16 +24,24 @@
 
   header {
     width: 100vw;
-    height: 100vh;
-    /* background-image: url('./images/fundo-giuzzo.PNG'); */
-    /* background-color: #e0cce5; */
-    background-color: #262626;
+    height: 30vh;
+    background-image: url('./images/LOGOS\ -\ PDF\ -\ CURCAS-07.png');
+    background-color: rgba(0, 0, 0, 0.89);
+    /* background-color: #262626; */
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     overflow-y: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  header h1 {
+    color: white;
+    font-family: 'Carl-Brown';
+    font-size: 85px;
+    font-weight: 570;
+    letter-spacing: 4px;
   }
 
   .sumario {
@@ -137,9 +145,8 @@
   }
 
   .giuzzo {
-    /* background-color: rgba(0, 0, 0, 0.384); */
-    padding: 10px;
-    /* max-width: 65vw; */
+    background-color: #1f1f1f7c;
+    padding: 3px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -150,38 +157,41 @@
     height: 100%;
   }
 
+  .text-breack {
+    height: 100%;
+    
+  }
+/* 
   .giuzzo h1 {
     color: white;
-    margin: 10px;
-    font-size: 36px;
+    margin: 12px;
+    font-size: 40px;
     font-family: 'Carl-Brown-otf';
     font-weight: 600;
     text-align: center;
-  }
+    letter-spacing: 2px;
+    margin-top: 50px;
+  } */
 
   .giuzzo p {
-    /* color: rgb(168, 168, 168); */
-    color: rgb(224, 222, 222);
-    font-size: 20px;
-    margin-bottom: 8px;
+    color: rgb(252, 251, 251);
+    font-size: 18.6px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 350;
     text-align: justify;
-    padding: 5px;
-    font-weight: 270;
-    width: 86%;
-    margin: 20px;
+    width: 88%;
+    margin-top: 30px;
   }
 
   .giuzzo button {
-    border: 1px solid white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: 200;
-    padding: 18px;
-    border-radius: 10px;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    width: 80%;
+    background-color: rgba(255, 255, 255, 0.212);
+    font-weight: 880;
+    font-family: 'Carl-Brown';
+    letter-spacing: 2px;
+    /* text-transform: uppercase; */
+    font-size: 22px;
+    width: 90%;
   }
 
   .noivas {
@@ -191,7 +201,7 @@
     background-image: url('./images/noiva-zomm.jpg');
     background-size: cover;
     background-position: bottom center;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     overflow-y: hidden;
     display: flex;
     align-items: center;
@@ -218,7 +228,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 15px;
   }
 
@@ -253,7 +263,7 @@
     font-weight: 350;
     text-align: justify;
     width: 89%;
-    margin-top: 34vh;
+    margin-top: 10px;
   }
 
   .contaudo-noivas button {
@@ -272,9 +282,10 @@
   .wedding-art {
     height: 100vh;
     width: 100vw;
-    background-image: url('./images/wedding.jpg');
+    background-image: url('./images/agora-vai.jpg');
     background-size: cover;
-    background-position: center;
+    /* background-attachment: fixed; */
+    background-position: right;
     display: flex;
     align-items: flex-start;
   }
@@ -296,7 +307,7 @@
     font-weight: 600;
     text-align: center;
     letter-spacing: 2px;
-    margin-top: 20px;
+    margin-top: 40px;
     text-transform: uppercase;
   }
 
@@ -308,7 +319,7 @@
     font-weight: 350;
     text-align: justify;
     width: 74%;
-    margin-top: 60px;
+    margin-top: 20px;
   }
 
   .wedding-art-text button {
@@ -325,16 +336,17 @@
     background-size: cover;
     margin-top: -20px;
     background-size: cover;
-    height: 50vh;
+    height: 75vh;
     width: 100vw;
   }
 
   .automaquiagem {
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background-color: rgba(0, 0, 0, 0.651);
-    background-image: url('./images/maquiagem.jpg');
-    /* background-attachment: fixed; */
+    background-image: url('./images/auto-make.jpg');
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     overflow-y: hidden;
     display: flex;
@@ -350,6 +362,48 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .mack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 248px; */
+  }
+
+  .mack h1 {
+    color: white;
+    margin: 10px;
+    font-size: 36px;
+    font-family: 'Carl-Brown-otf';
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    width: 80%;
+    padding: 10px;
+  }
+
+  .mack p {
+    color: rgb(252, 251, 251);
+    font-size: 18.6px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 350;
+    text-align: justify;
+    width: 79%;
+    margin-top: 10px;
+  }
+
+  .mack button {
+    background-color: rgba(255, 255, 255, 0.212);
+    font-weight: 880;
+    font-family: 'Carl-Brown';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 26px;
   }
 
   .lipglow {

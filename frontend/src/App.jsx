@@ -54,7 +54,7 @@ function App() {
       </section>
       <section className='wedding-art'>
         <div className='wedding-art-text'>
-          {/* <h1>WEDDING ART</h1> */}
+          <h1>WEDDING ART</h1>
           <p>
             Transforme o seu casamento em uma experiência sensorial inesquecível e cocrie os detalhes artísticos
             do seu grande dia. Vamos desenvolver desde a Identidade Visual, Convites, Kits Personalizados, e tudo
@@ -65,8 +65,8 @@ function App() {
       </section>
       <section className='automaquiagem' id='automaquiagem'>
           <div className='div-automaquiagem'>
-            <div className='giuzzo'>
-              <h1>Curso automaquiagem</h1>
+            <div className='mack'>
+              <h1>CURSO DE AUTOMAQUIAGEM</h1>
               <p>
                 Quer aprender a ressaltar sua beleza de um jeito divertido e artístico? A “Arte da Beleza” é o meu
                 Curso de Automaquiagem em um formato de um Brunch & Make, onde irei desmistificar o mundo da
@@ -77,19 +77,22 @@ function App() {
           </div>
         </section>
       <header>
-        <div className='giuzzo' id='giuzzo'>
-          <h1>giuzzo</h1>
-          <p>
-            GIUZZO, uma marca de arte idealizada por Giulia Pantuzzo, para materializar o seu universo criativo.
-            Através de uma estética inovadora e posicionamento subversivo, suas criações não passam
-            despercebidas. A GIUZZO é um convite para experimentar a arte no seu dia a dia.
-          </p>
-          <button className='btn'>SHOP SITE | Brasil</button>
-          <button className='btn'>SHOP SITE | Internacional</button>
-        </div>
       </header>
       <main>
-        <section className='breack'></section>
+        <section className='breack'>
+          <div className='text-breack'>
+            <div className='giuzzo' id='giuzzo'>
+              {/* <h1>giuzzo</h1> */}
+              <p>
+                GIUZZO, uma marca de arte idealizada por Giulia Pantuzzo, para materializar o seu universo criativo.
+                Através de uma estética inovadora e posicionamento subversivo, suas criações não passam
+                despercebidas. A GIUZZO é um convite para experimentar a arte no seu dia a dia.
+              </p>
+              <button className='btn'>giuzzo BRASIL</button>
+              <button className='btn'>SHOP INTERNATIONAL</button>
+            </div>
+          </div>
+        </section>
         <section className='lipglow' id='lipGlow'>
           <div>
             <div className='text-glow'>
