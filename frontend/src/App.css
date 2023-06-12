@@ -42,7 +42,7 @@
     justify-content: center;
     background-image: url('./images/g-pantuzzo.JPG');
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
   }
 
   .g-pantuzzo {
@@ -50,35 +50,62 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 18px;
     padding: 15px;
-    background-color: rgba(27, 27, 27, 0.726);
+    background-color: rgba(27, 27, 27, 0.432);
   }
 
   .g-pantuzzo h1 {
     color: rgba(255, 255, 255, 0.829);
     display: inline-block;
     margin-top: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 33px;
     font-family: 'Carl-Brown';
     font-weight: 600;
     text-align: center;
-    font-style: italic;
+    /* font-style: italic; */
   }
 
   .g-pantuzzo p {
-    color: rgba(252, 251, 251, 0.747);
-    font-size: 21px;
-    margin-bottom: 15px;
+    color: rgb(252, 251, 251);
+    font-size: 18.6px;
+    margin-bottom: 60px;
     text-align: center;
     /* font-family: 'HK GROTESK'; */
     /* font-family: Arial, Helvetica, sans-serif; */
     /* text-transform: uppercase; */
-    font-weight: 270;
+    font-weight: 350;
     text-align: justify;
-    width: 77.8%;
+    width: 77.5%;
+  }
+
+  .nav {
+    height: 58vh;
+    background-image: url('./images/fundo-suario.JPG');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-nav {
+    height: 100%;
+    width: 100%;
+    background-color: #1f1f1f38;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-nav button {
+    background-color: rgba(255, 255, 255, 0.158);
+    /* text-transform: uppercase; */
+    /* color: transparent; */
+    font-weight: 450;
   }
 
   .sumario div h1 {
@@ -90,7 +117,7 @@
     margin-top: 10px;
     font-size: 20px;
     /* font-family: 'HK GROTESK'; */
-    font-weight: 100;
+    font-weight: 300;
     /* height: 58px; */
     padding: 15px;
     border-radius: 10px;
@@ -158,6 +185,7 @@
     background-color: rgba(0, 0, 0, 0.651);
     background-image: url('./images/noiva.jpeg');
     background-size: cover;
+    background-position: center;
     /* background-attachment: fixed; */
     overflow-y: hidden;
     display: flex;
@@ -166,7 +194,7 @@
   }
 
   .div-noivas {
-    background-color: rgba(255, 0, 242, 0.144);
+    /* background-color: rgba(255, 0, 242, 0.144); */
     /* background-color: #e0cce552; */
     width: 100%;
     height: 100%;
@@ -214,7 +242,7 @@
     /* font-family: 'HK GROTESK'; */
     /* font-family: Arial, Helvetica, sans-serif; */
     /* text-transform: uppercase; */
-    font-weight: 278;
+    font-weight: 380;
     text-align: justify;
     width: 86%;
   }

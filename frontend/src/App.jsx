@@ -9,7 +9,7 @@ function App() {
     <div className='body'>
       <div className='sumario'>
         <div className='g-pantuzzo'>
-          <h1>G.Pantuzzo</h1>
+          <h1>g.pantuzzo</h1>
           {/* <h2><img src={ img } alt="" /></h2> */}
           <p>
             Giulia Pantuzzo é uma artista multidisciplinar
@@ -17,10 +17,14 @@ function App() {
             suas criações. Suas produções únicas provocam
             experiências que rompem com a normalidade e celebram a potência do feminino.
           </p>
+        </div>
+      </div>
+      <div className='nav'>
+        <div className='div-nav'>
           <button className='btn'>
-            Contato e Agendamento
+            Contato
           </button>
-          {/* <button className='btn'>
+          <button className='btn'>
             <a href="#noivas">Dia de Noiva</a>
           </button>
           <button className='btn'>
@@ -31,7 +35,7 @@ function App() {
           </button>
           <button className='btn'>
             <a href="#lipGlow">Compre o Lip Glow</a>
-          </button> */}
+          </button>
         </div>
       </div>
       <section className='noivas' id='noivas'>
