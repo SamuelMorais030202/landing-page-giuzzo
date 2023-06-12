@@ -22,7 +22,7 @@ function App() {
       <div className='nav'>
         <div className='div-nav'>
           <button className='btn'>
-            Contato
+            <a href="#noivas">Contato</a>
           </button>
           <button className='btn'>
             <a href="#noivas">Dia de Noiva</a>
@@ -41,22 +41,27 @@ function App() {
       <section className='noivas' id='noivas'>
           <div className='div-noivas'>
             <div className='contaudo-noivas'>
-              <h1>Noivas</h1>
+              <h1>Weddings</h1>
               <h3>G. Pantuzzo convida para uma experiencia artística no seu casamento.</h3>
               <p>
                 Para mim, é uma honra ser escolhida para produzir a Beleza do seu Dia de Noiva. Venha ceder o seu
                 rosto como tela para que juntas possamos concretizar o seu sonho para este dia especial. Desejo fazer
                 de você uma verdadeira obra prima, te deixando mais confiante do que nunca!
               </p>
-              <button className='btn'>Dia de noiva com a GIU</button>
-              <p>
-                Transforme o seu casamento em uma experiência sensorial inesquecível e cocrie os detalhes artísticos
-                do seu grande dia. Vamos desenvolver desde a Identidade Visual, Convites, Kits Personalizados, e tudo
-                que você sonha para que a arte esteja em todos os detalhes.
-              </p>
-              <button className='btn'>Wedding Art</button>
+              <button className='btn'>DIA DE NOIVA</button>
             </div>
           </div>
+      </section>
+      <section className='wedding-art'>
+        <div className='wedding-art-text'>
+          {/* <h1>WEDDING ART</h1> */}
+          <p>
+            Transforme o seu casamento em uma experiência sensorial inesquecível e cocrie os detalhes artísticos
+            do seu grande dia. Vamos desenvolver desde a Identidade Visual, Convites, Kits Personalizados, e tudo
+            que você sonha para que a arte esteja em todos os detalhes.
+          </p>
+          <button className='btn'>Wedding Art</button>
+        </div>
       </section>
       <section className='automaquiagem' id='automaquiagem'>
           <div className='div-automaquiagem'>

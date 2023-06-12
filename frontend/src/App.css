@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('./images/g-pantuzzo.JPG');
+    background-image: url('./images/g-pantuzzo.jpg');
     background-size: cover;
     background-attachment: fixed;
   }
@@ -71,7 +71,7 @@
   .g-pantuzzo p {
     color: rgb(252, 251, 251);
     font-size: 18.6px;
-    margin-bottom: 60px;
+    margin-bottom: 56px;
     text-align: center;
     /* font-family: 'HK GROTESK'; */
     /* font-family: Arial, Helvetica, sans-serif; */
@@ -93,7 +93,7 @@
   .div-nav {
     height: 100%;
     width: 100%;
-    background-color: #1f1f1f38;
+    background-color: #1f1f1f5b;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -102,10 +102,15 @@
   }
 
   .div-nav button {
-    background-color: rgba(255, 255, 255, 0.158);
+    background-color: rgba(255, 255, 255, 0.212);
     /* text-transform: uppercase; */
     /* color: transparent; */
-    font-weight: 450;
+    font-weight: 750;
+    font-family: 'Carl-Brown';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 23px;
+    /* width: 90%; */
   }
 
   .sumario div h1 {
@@ -181,11 +186,11 @@
 
   .noivas {
     width: 100vw;
-    height: 138vh;
+    height: 110vh;
     background-color: rgba(0, 0, 0, 0.651);
-    background-image: url('./images/noiva.jpeg');
+    background-image: url('./images/noiva-zomm.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: bottom center;
     /* background-attachment: fixed; */
     overflow-y: hidden;
     display: flex;
@@ -206,58 +211,113 @@
   .contaudo-noivas {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgba(0, 0, 0, 0.575);
     padding: 30px;
     /* max-width: 75vw; */
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 15px;
   }
 
   .contaudo-noivas h1 {
     color: white;
     margin: 12px;
-    font-size: 35px;
+    font-size: 40px;
     font-family: 'Carl-Brown-otf';
     font-weight: 600;
     text-align: center;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    text-transform: uppercase;
   }
 
   .contaudo-noivas h3 {
     color: white;
     text-align: center;
     font-weight: 500;
-    font-style: oblique;
+    font-style: italic;
     /* margin-bottom: 10px; */
   }
 
   .contaudo-noivas p {
     color: rgb(252, 251, 251);
-    font-size: 21px;
-    margin-bottom: 10px;
+    font-size: 18.6px;
+    margin-bottom: 5px;
     text-align: center;
     /* font-family: 'HK GROTESK'; */
     /* font-family: Arial, Helvetica, sans-serif; */
     /* text-transform: uppercase; */
-    font-weight: 380;
+    font-weight: 350;
     text-align: justify;
-    width: 86%;
+    width: 89%;
+    margin-top: 34vh;
   }
 
   .contaudo-noivas button {
-    border: 1px solid white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: 200;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    width: 80%;
+    background-color: rgba(255, 255, 255, 0.212);
+    /* text-transform: uppercase; */
+    /* color: transparent; */
+    font-weight: 880;
+    font-family: 'Carl-Brown';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 22px;
+    /* line-height: 23px; */
+    width: 93%;
+  }
+
+  .wedding-art {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./images/wedding.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .wedding-art-text {
+    background-color: #1f1f1f70;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .wedding-art-text h1 {
+    color: white;
+    margin: 12px;
+    font-size: 40px;
+    font-family: 'Carl-Brown-otf';
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+
+  .wedding-art-text p {
+    color: rgb(252, 251, 251);
+    font-size: 18.6px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 350;
+    text-align: justify;
+    width: 74%;
+    margin-top: 60px;
+  }
+
+  .wedding-art-text button {
+    background-color: rgba(255, 255, 255, 0.212);
+    font-weight: 880;
+    font-family: 'Carl-Brown';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 22px;
   }
 
   .breack {
