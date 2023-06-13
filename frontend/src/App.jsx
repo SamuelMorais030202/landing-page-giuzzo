@@ -77,6 +77,7 @@ function App() {
           </div>
         </section>
       <header>
+        {/* <h1>giuzzo</h1> */}
       </header>
       <main>
         <section className='breack'>
@@ -102,14 +103,14 @@ function App() {
                 para realçar a sua beleza natural. Com uma combinação exclusiva de ativos, este produto foi
                 desenhado para incentivar o seu autocuidado e aumentar sua autoconfiança.
               </p>
-              <button className='btn'>Descubra o seu mais novo vício</button>
+              <button className='btn'>Descubra o seu <br /> mais novo vício...</button>
             </div>
           </div>
         </section>
       </main>
       <footer>
         <section className='links'>
-          <h1>Me encontre</h1>
+          <h1>CONHEÇA MEUS TRABALHOS</h1>
           <nav>
             <a href="https://www.instagram.com/gpantuzzo/" target="_blank" rel="noreferrer">Instagram de Art <span></span><span></span></a>
             <a href="https://www.instagram.com/giuliapantuzzobeauty/" target="_blank" rel="noreferrer">Instagram Beauty <span></span> <span></span></a>

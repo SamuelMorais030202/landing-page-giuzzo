@@ -24,9 +24,9 @@
 
   header {
     width: 100vw;
-    height: 30vh;
-    background-image: url('./images/LOGOS\ -\ PDF\ -\ CURCAS-07.png');
-    background-color: rgba(0, 0, 0, 0.89);
+    height: 32vh;
+    background-image: url('./images/test-logo-3.jpg');
+    /* background-color: white; */
     /* background-color: #262626; */
     background-size: cover;
     background-position: center;
@@ -37,7 +37,7 @@
   }
 
   header h1 {
-    color: white;
+    color: black;
     font-family: 'Carl-Brown';
     font-size: 85px;
     font-weight: 570;
@@ -332,7 +332,7 @@
   }
 
   .breack {
-    background-image: url('images/IMG_7071\ \(1\).jpg');
+    background-image: url('images/IMG_9525\ \(1\).jpg');
     background-size: cover;
     margin-top: -20px;
     background-size: cover;
@@ -416,6 +416,8 @@
     justify-content: center;
     background-image: url('./images/lip-glow.JPG');
     background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
   }
 
   .lipglow div {
@@ -436,54 +438,53 @@
   }
 
   .text-glow h1 {
-    color: rgb(255, 255, 255);
-    margin: 12px;
-    font-size: 35px;
+    color: white;
+    margin: 10px;
+    font-size: 45px;
     font-family: 'Carl-Brown-otf';
     font-weight: 600;
     text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    width: 80%;
+    padding: 10px;
+    text-transform: uppercase;
   }
 
   .text-glow p {
-    color: rgba(252, 251, 251, 0.877);
-    font-size: 21px;
-    margin-bottom: 15px;
+    color: rgb(252, 251, 251);
+    font-size: 18.6px;
+    margin-bottom: 20px;
     text-align: center;
-    /* font-family: 'HK GROTESK'; */
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* text-transform: uppercase; */
-    font-weight: 270;
+    font-weight: 350;
     text-align: justify;
-    width: 85%
+    width: 79%;
+    margin-top: 10px;
   }
 
   .text-glow button {
-    border: 1px solid white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: 200;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    width: 80%;
+    background-color: rgba(255, 255, 255, 0.212);
+    font-weight: 880;
+    font-family: 'Carl-Brown';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 23px;
+    line-height: 26px;
   }
 
   footer {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-image: url('./images/IMG_7942\ \(1\).JPG');
+    background-size: cover;
+    background-position: center center;
   }
 
   .links {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
-    /* background-color: rgba(5, 5, 5, 0.726); */
-    background-image: url('./images/g.pantuzzo.tnsp.png');
-    background-image: linear-gradient(#1f1f1f, #9079b8 );
-    background-size: cover;
-    background-position: center center;
+    background-color: rgba(5, 5, 5, 0.596);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -493,11 +494,17 @@
 
   .links h1 {
     color: white;
-    margin-top: -20px;
-    font-size: 35px;
+    margin: 10px;
+    font-size: 40px;
     font-family: 'Carl-Brown-otf';
     font-weight: 600;
     text-align: center;
+    letter-spacing: 1px;
+    line-height: 42px;
+    margin-top: 10px;
+    width: 80%;
+    padding: 10px;
+    text-transform: uppercase;
   }
 
   nav {
@@ -506,23 +513,28 @@
     flex-direction: column;
     align-items: center;
     gap: 25px;
+    width: 100%;
   }
 
   nav a {
     text-decoration: none;
     list-style-type: none;
     border: 1px solid white;
-    border-radius: 20px;
-    width: 280px;
-    height: 3em;
-    font-weight: 400;
+    border-radius: 10px;
+    width: 80%;
+    /* height: 3em; */
+    font-weight: 880;
     text-align: center;
     letter-spacing: 0.1em;
     line-height: 3em;
     overflow: hidden;
     transition: 0.5s;
     color: white;
-    font-size: 20px;
+    font-size: 23px;
+    background-color: rgba(255, 255, 255, 0.212);
+    font-family: 'Carl-Brown';
+    letter-spacing: 2px;
+    text-transform: uppercase;
   }
 
   nav a span {
