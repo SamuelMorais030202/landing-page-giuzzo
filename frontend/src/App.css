@@ -50,7 +50,7 @@
     justify-content: center;
     background-image: url('./images/g-pantuzzo.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
 
   .g-pantuzzo {
@@ -201,7 +201,7 @@
     background-image: url('./images/noiva-zomm.jpg');
     background-size: cover;
     background-position: bottom center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     overflow-y: hidden;
     display: flex;
     align-items: center;
@@ -345,7 +345,7 @@
     height: 110vh;
     background-color: rgba(0, 0, 0, 0.651);
     background-image: url('./images/auto-make.jpg');
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-size: cover;
     overflow-y: hidden;
@@ -417,7 +417,7 @@
     background-image: url('./images/lip-glow.JPG');
     background-size: cover;
     background-position: bottom;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
 
   .lipglow div {
