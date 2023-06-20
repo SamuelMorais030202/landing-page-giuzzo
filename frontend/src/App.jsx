@@ -2,21 +2,56 @@ import './bigScreens.css';
 import './App.css';
 import './desktop.css';
 
-import Rellax from 'rellax';
 import { useEffect } from 'react';
-
-// import img from './images/g.pantuzzo.tnsp.png'
 
 function App() {
 
+  // const handleScroll = () => {
+  //   const scrolledY = window.scrollY;
+  //   document.querySelector('.sumario').style.backgroundPosition = `left ${scrolledY}px`;
+  //   document.querySelector('.noivas').style.backgroundPosition = `left ${scrolledY}px`;
+  // };
+
+  // window.addEventListener('scroll', handleScroll);
+
   useEffect(() => {
-    new Rellax('.contaudo-noivas', {
-      speed: 2.5,
-    });
-    new Rellax('.g-pantuzzo', {
-      speed: 2.5,
-      center: true, 
-    });
+    // window.addEventListener('scroll', function() {
+    //   const scrolledY = window.pageYOffset;
+
+    //   let images = [
+    //     { id: '.sumario', initialPosition: 0 },
+    //     { id: '.noivas', initialPosition: 500 },
+    //     { id: '.automaquiagem', initialPosition: 900 }
+    //   ];
+      
+    //   images.forEach(function(image) {
+    //     const element = document.querySelector(image.id);
+    //     const newPosition = image.initialPosition - scrolledY;
+    //     element.style.backgroundPosition = 'left ' + newPosition + 'px';
+    //   });
+    // });
+    const handleParallax = () => {
+      const scrolledY = window.pageYOffset;
+  
+      const images = [
+        { id: '.sumario', initialPosition: 0 },
+        { id: '.noivas', initialPosition: 500 },
+        { id: '.automaquiagem', initialPosition: 900 }
+      ];
+  
+      images.forEach(function (image) {
+        const element = document.querySelector(image.id);
+        // const newPosition = image.initialPosition - scrolledY;
+        element.style.backgroundPosition = 'left ' + scrolledY + 'px';
+      });
+    };
+
+    window.addEventListener('scroll', handleParallax);
+
+    return () => {
+      window.removeEventListener('scroll', handleParallax);
+    };
+
   }, []);
 
   return (

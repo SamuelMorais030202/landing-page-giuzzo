@@ -50,20 +50,9 @@
     justify-content: center;
     background-image: url('./images/g-pantuzzo.jpg');
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-position: left top;
     overflow-x: hidden;
   }
-
-  /* .sumario::after {
-    background-image: url('./images/g-pantuzzo.jpg');
-    background-size: cover;
-    display: block;
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    content: "";
-  } */
 
   .g-pantuzzo {
     height: 100vh;
@@ -212,8 +201,8 @@
     background-color: rgba(0, 0, 0, 0.651);
     background-image: url('./images/noiva-zomm.jpg');
     background-size: cover;
-    background-position: bottom center;
     /* background-attachment: fixed; */
+    background-position: bottom;
     overflow-y: hidden;
     display: flex;
     align-items: center;
