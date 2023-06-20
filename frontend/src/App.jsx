@@ -2,9 +2,23 @@ import './bigScreens.css';
 import './App.css';
 import './desktop.css';
 
+import Rellax from 'rellax';
+import { useEffect } from 'react';
+
 // import img from './images/g.pantuzzo.tnsp.png'
 
 function App() {
+
+  useEffect(() => {
+    new Rellax('.contaudo-noivas', {
+      speed: 2.5,
+    });
+    new Rellax('.g-pantuzzo', {
+      speed: 2.5,
+      center: true, 
+    });
+  }, []);
+
   return (
     <div className='body'>
       <div className='sumario'>
