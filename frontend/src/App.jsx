@@ -6,17 +6,10 @@ import { useEffect } from 'react';
 
 function App() {
 
-  // const handleScroll = () => {
-  //   const scrolledY = window.scrollY;
-  //   document.querySelector('.sumario').style.backgroundPosition = `left ${scrolledY}px`;
-  //   document.querySelector('.noivas').style.backgroundPosition = `left ${scrolledY}px`;
-  // };
-
-  // window.addEventListener('scroll', handleScroll);
 
   useEffect(() => {
       const handleScroll = () => {
-        const scrolledY = window.scrollY * 0.65;
+        const scrolledY = window.scrollY * 0.6;
         document.querySelector('.sumario').style.backgroundPosition = `left ${scrolledY}px`;
         document.querySelector('.noivas').style.backgroundPosition = `left ${scrolledY - 800}px`;
         // document.querySelector('.automaquiagem').style.backgroundPosition = `left ${scrolledY - 1880}px`;
