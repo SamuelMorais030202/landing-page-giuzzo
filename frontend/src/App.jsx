@@ -41,7 +41,7 @@ function App() {
   }, []);
 
   const submitWhatsApp = () => {
-    const number = 5538988228793;
+    const number = 5531992394967;
     const message = 'Bem vindo';
 
     const queryParams = queryString.stringify({
