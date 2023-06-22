@@ -3,6 +3,7 @@ import './App.css';
 import './desktop.css';
 
 import { useEffect } from 'react';
+import queryString from 'query-string';
 
 // window.addEventListener('scroll', function() {
     //   const scrolledY = window.pageYOffset;
@@ -38,6 +39,20 @@ function App() {
     };
 
   }, []);
+
+  const submitWhatsApp = () => {
+    const number = 38988228793;
+    const message = 'Bem vindo';
+
+    const queryParams = queryString.stringify({
+      phone: number,
+      text: message,
+    });
+
+    const url = `whatsapp://send?${queryParams}`;
+  
+    window.location.href = url;
+  }
 
   return (
     <div className='body'>
@@ -81,7 +96,7 @@ function App() {
                 rosto como tela para que juntas possamos concretizar o seu sonho para este dia especial. Desejo fazer
                 de você uma verdadeira obra prima, te deixando mais confiante do que nunca!
               </p>
-              <button className='btn'>DIA DE NOIVA</button>
+              <button className='btn' onClick={ () => submitWhatsApp() }>DIA DE NOIVA</button>
             </div>
           </div>
       </section>
