@@ -41,7 +41,7 @@ function App() {
   }, []);
 
   const submitWhatsApp = () => {
-    const number = 38988228793;
+    const number = 5538988228793;
     const message = 'Bem vindo';
 
     const queryParams = queryString.stringify({
@@ -96,7 +96,7 @@ function App() {
                 rosto como tela para que juntas possamos concretizar o seu sonho para este dia especial. Desejo fazer
                 de você uma verdadeira obra prima, te deixando mais confiante do que nunca!
               </p>
-              <button className='btn' onClick={ () => submitWhatsApp() }>DIA DE NOIVA</button>
+              <button className='btn' onClick={submitWhatsApp}>DIA DE NOIVA</button>
             </div>
           </div>
       </section>
