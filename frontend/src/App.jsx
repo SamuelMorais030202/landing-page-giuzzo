@@ -4,21 +4,7 @@ import './desktop.css';
 
 import { useEffect } from 'react';
 
-function App() {
-
-
-  useEffect(() => {
-      const handleScroll = () => {
-        const scrolledY = window.scrollY * 0.3;
-        const scrolledYIMG = window.scrollY * 0.2;
-        document.querySelector('.sumario').style.backgroundPosition = `left ${scrolledY}px`;
-        document.querySelector('.noivas').style.backgroundPosition = `left ${scrolledYIMG - 270}px`;
-        // document.querySelector('.automaquiagem').style.backgroundPosition = `left ${scrolledY - 1880}px`;
-      };
-
-      window.addEventListener('scroll', handleScroll);
-
-    // window.addEventListener('scroll', function() {
+// window.addEventListener('scroll', function() {
     //   const scrolledY = window.pageYOffset;
 
     //   let images = [
@@ -34,6 +20,19 @@ function App() {
     //   });
     // });
 
+function App() {
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolledY = window.scrollY * 0.3;
+      const scrolledYIMG = window.scrollY * 0.2;
+      document.querySelector('.sumario').style.backgroundPosition = `left ${scrolledY}px`;
+      document.querySelector('.noivas').style.backgroundPosition = `left ${scrolledYIMG - 270}px`;
+      document.querySelector('.automaquiagem').style.backgroundPosition = `left ${scrolledYIMG - 580}px`;
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -45,7 +44,6 @@ function App() {
       <div className='sumario'>
         <div className='g-pantuzzo'>
           <h1>g.pantuzzo</h1>
-          {/* <h2><img src={ img } alt="" /></h2> */}
           <p>
             Giulia Pantuzzo é uma artista multidisciplinar
             que traduz seu estudo da Arte da Beleza em todas as
