@@ -16,9 +16,10 @@ function App() {
 
   useEffect(() => {
       const handleScroll = () => {
-        const scrolledY = window.scrollY * 0.8;
+        const scrolledY = window.scrollY * 0.65;
         document.querySelector('.sumario').style.backgroundPosition = `left ${scrolledY}px`;
-        document.querySelector('.noivas').style.backgroundPosition = `left ${scrolledY - 1000}px`;
+        document.querySelector('.noivas').style.backgroundPosition = `left ${scrolledY - 800}px`;
+        // document.querySelector('.automaquiagem').style.backgroundPosition = `left ${scrolledY - 1880}px`;
       };
 
       window.addEventListener('scroll', handleScroll);
