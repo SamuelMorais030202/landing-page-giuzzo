@@ -28,7 +28,7 @@ function App() {
       const scrolledYIMG = window.scrollY * 0.2;
       document.querySelector('.sumario').style.backgroundPosition = `left ${scrolledY}px`;
       document.querySelector('.noivas').style.backgroundPosition = `left ${scrolledYIMG - 270}px`;
-      document.querySelector('.automaquiagem').style.backgroundPosition = `left ${scrolledYIMG - 580}px`;
+      document.querySelector('.automaquiagem').style.backgroundPosition = `left ${scrolledY - 880}px`;
     };
 
     window.addEventListener('scroll', handleScroll);
