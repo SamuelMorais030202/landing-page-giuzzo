@@ -50,6 +50,7 @@
     justify-content: center;
     background-image: url('./images/g-pantuzzo.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: left top;
     overflow-x: hidden;
   }
@@ -203,6 +204,7 @@
     background-size: cover;
     /* background-attachment: fixed; */
     background-position: bottom;
+    background-repeat: no-repeat;
     overflow-y: hidden;
     display: flex;
     align-items: center;

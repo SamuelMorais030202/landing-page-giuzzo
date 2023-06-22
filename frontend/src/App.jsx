@@ -16,9 +16,9 @@ function App() {
 
   useEffect(() => {
       const handleScroll = () => {
-        const scrolledY = window.scrollY;
+        const scrolledY = window.scrollY * 0.8;
         document.querySelector('.sumario').style.backgroundPosition = `left ${scrolledY}px`;
-        document.querySelector('.noivas').style.backgroundPosition = `left ${scrolledY - 480}px`;
+        document.querySelector('.noivas').style.backgroundPosition = `left ${scrolledY - 1000}px`;
       };
 
       window.addEventListener('scroll', handleScroll);
