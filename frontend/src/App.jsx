@@ -25,7 +25,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrolledY = window.scrollY * 0.6;
+      const scrolledY = window.scrollY * 0.3;
       document.querySelector('.sumario').style.backgroundPosition = `left ${scrolledY}px`;
       // document.querySelector('.automaquiagem').style.backgroundPosition = `left ${scrolledY - 880}px`;
     };
